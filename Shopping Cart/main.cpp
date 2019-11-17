@@ -77,7 +77,7 @@ void PrintMenu(ShoppingCart cart) {
     cout << "\nToday's date: " << todaysDate << "\n";
 
     do {
-        cout << "\nMENU" << "\na - Add item to cart" << "\nd - Remove item from cart" << "\nc - Change item quantity" 
+        cout << "\nMENU" << "\na - Add item to cart" << "\nd - Remove item from cart" << "\nc - Change item quantity"
             << "\ni - Output items\' descriptions" << "\no - Output shopping cart" << "\nq - Quit\n";
         do {
             cout << "\nChoose an option:";
@@ -87,7 +87,7 @@ void PrintMenu(ShoppingCart cart) {
                 cin.ignore('\n', 1000);
                 return;
             }
-            while (userOption != 'a' && userOption != 'd' && userOption != 'c' && userOption != 'i' && userOption != 'o' && userOption != 'q');
+        } while (userOption != 'a' && userOption != 'd' && userOption != 'c' && userOption != 'i' && userOption != 'o' && userOption != 'q');
             if (userOption == 'a') {
                 AddItem(cart);
             }
