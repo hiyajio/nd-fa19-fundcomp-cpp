@@ -107,7 +107,6 @@ void PrintMenu(ShoppingCart cart) {
     } while (userOption != 'q');
 }
 
-
 int main() {
     ShoppingCart cart;
     PrintMenu(cart);
