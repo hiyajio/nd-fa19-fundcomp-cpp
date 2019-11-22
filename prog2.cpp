@@ -30,7 +30,7 @@ int main()
         int scoreS;
 
         scoreTD = td*6;          // x6 for touchdowns
-        scoreFG = fieldG*3;      // x3 for field goals 
+        scoreFG = fieldG*3;      // x3 for field goals
         scoreS = safety*2;       // x2 for safeties
 
         total = scoreTD + xtraPt + scoreFG + scoreS; // total all scores

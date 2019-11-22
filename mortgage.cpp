@@ -1,7 +1,7 @@
 /* Developer: Juan Sergio Buenviaje
  * Lab: Tuesdays 2:25 - 3:15pm
  * Program: mortgage.cpp
- * Description: Displays amortization table based on principal, interest rate, and desired monthly payment inputted by user.  
+ * Description: Displays amortization table based on principal, interest rate, and desired monthly payment inputted by user.
  */
 #include <iostream>
 using namespace std;

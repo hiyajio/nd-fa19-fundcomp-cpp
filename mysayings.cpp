@@ -33,7 +33,7 @@ int main() {
     cout << "\n\n";
 
     ifstream my_file(file);
-    if (my_file.good()) {       // Checks if file exists, if not, 
+    if (my_file.good()) {       // Checks if file exists, if not,
                                 // display error message & terminate program
         while (getline(my_file, str)) {     // Turns file into vector<string>
             if (str.size() > 0) {
@@ -93,7 +93,7 @@ int main() {
             }
         }
     } else {
-        cout << "Error in opening file: \"" << file << "\"!\n\n\n";     
+        cout << "Error in opening file: \"" << file << "\"!\n\n\n";
             // Error message & formatting
     }
     return 0;
@@ -135,7 +135,7 @@ void save_new_sayings(vector<string> &quotes, string new_file_name) {
 
     new_file.close();
 
-    cout << "File successfully saved under name: \"" << new_file_name << "\"!\n\n";     
+    cout << "File successfully saved under name: \"" << new_file_name << "\"!\n\n";
         // Success message & formatting
 }
 
