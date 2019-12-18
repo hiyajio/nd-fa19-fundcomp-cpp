@@ -1,0 +1,26 @@
+
+
+The files in this directory are:
+================================
+
+  newfunctions2.txt :  a listing of the new function prototypes
+
+  gfx2.h :  the new header file for those functions
+            new functions and their descriptions are after line 50
+
+  gfx2.o :      the new .o compiled file
+  gfx2_mac.o :  the new .o compiled file for mac's
+
+  testgfx2.cpp :   simple program to test some of the basic new functions
+
+  testpoly.cpp :   program to test the new drawing functions (polygon, ellipse, arc, etc.)
+                   and the 'filled' versions of some of them
+                   also shows how to set up an array of points for the polygon
+
+  testcursors.cpp :  program to test a few new cursors (mouse pointers)
+
+  testfont.cpp :   simple program to test using a font
+
+  testfont2.cpp :  complex program to display a rectangle based on a font's details
+                   (only useful if you want to pricesely identify a font's dimensions)
+
